@@ -24,6 +24,7 @@
                                         withPassword:@"pwdcxy"
                              
                                                error:&error];
+    NSString * str  =[[NSString alloc] initWithData:decryptedData encoding:NSUTF8StringEncoding];
     NSLog(@"=======%@",str);
 }
 
