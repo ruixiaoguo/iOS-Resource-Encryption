@@ -103,7 +103,7 @@ typedef void(^DeleteBlock)(NSInteger index);
     
     NSMutableArray *types = @[].mutableCopy;
     [types addObjectsFromArray:[NSImage imageTypes]];
-    [types addObjectsFromArray:@[@"mp3",@"wav",@"plist",@"xml",@"png",@"html"]];
+    [types addObjectsFromArray:@[@"mp3",@"wav",@"plist",@"xml",@"png",@"html",@"json"]];
     
     NSOpenPanel *panel = [NSOpenPanel openPanel];
     [panel setCanCreateDirectories:NO];
