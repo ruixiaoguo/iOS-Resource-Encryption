@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2145629E2328EF2900F8D5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2145629D2328EF2900F8D5F8 /* AppDelegate.m */; };
+		214562A12328EF2900F8D5F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 214562A02328EF2900F8D5F8 /* ViewController.m */; };
+		214562A42328EF2900F8D5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214562A22328EF2900F8D5F8 /* Main.storyboard */; };
+		214562A62328EF2A00F8D5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 214562A52328EF2A00F8D5F8 /* Assets.xcassets */; };
+		214562A92328EF2A00F8D5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 214562A72328EF2A00F8D5F8 /* LaunchScreen.storyboard */; };
+		214562AC2328EF2A00F8D5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 214562AB2328EF2A00F8D5F8 /* main.m */; };
+		214562B32328F05400F8D5F8 /* splash.cxy in Resources */ = {isa = PBXBuildFile; fileRef = 214562B22328F05400F8D5F8 /* splash.cxy */; };
+		214562C02328F0B100F8D5F8 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 214562B62328F0B100F8D5F8 /* RNCryptor.m */; };
+		214562C12328F0B100F8D5F8 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 214562BD2328F0B100F8D5F8 /* RNDecryptor.m */; };
+		214562C22328F0B100F8D5F8 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 214562BE2328F0B100F8D5F8 /* RNEncryptor.m */; };
+		214562C32328F0B100F8D5F8 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 214562BF2328F0B100F8D5F8 /* RNCryptorEngine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		214562992328EF2900F8D5F8 /* JieMi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JieMi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2145629C2328EF2900F8D5F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2145629D2328EF2900F8D5F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2145629F2328EF2900F8D5F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		214562A02328EF2900F8D5F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		214562A32328EF2900F8D5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		214562A52328EF2A00F8D5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		214562A82328EF2A00F8D5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		214562AA2328EF2A00F8D5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		214562AB2328EF2A00F8D5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		214562B22328F05400F8D5F8 /* splash.cxy */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash.cxy; sourceTree = "<group>"; };
+		214562B52328F0B100F8D5F8 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		214562B62328F0B100F8D5F8 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		214562B72328F0B100F8D5F8 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		214562B82328F0B100F8D5F8 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		214562B92328F0B100F8D5F8 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		214562BA2328F0B100F8D5F8 /* RNCryptor+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Swift.h"; sourceTree = "<group>"; };
+		214562BB2328F0B100F8D5F8 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		214562BC2328F0B100F8D5F8 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		214562BD2328F0B100F8D5F8 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		214562BE2328F0B100F8D5F8 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		214562BF2328F0B100F8D5F8 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		214562962328EF2900F8D5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214562902328EF2900F8D5F8 = {
+			isa = PBXGroup;
+			children = (
+				2145629B2328EF2900F8D5F8 /* JieMi */,
+				2145629A2328EF2900F8D5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2145629A2328EF2900F8D5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				214562992328EF2900F8D5F8 /* JieMi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2145629B2328EF2900F8D5F8 /* JieMi */ = {
+			isa = PBXGroup;
+			children = (
+				214562B42328F0B100F8D5F8 /* RNCryptor */,
+				2145629C2328EF2900F8D5F8 /* AppDelegate.h */,
+				2145629D2328EF2900F8D5F8 /* AppDelegate.m */,
+				2145629F2328EF2900F8D5F8 /* ViewController.h */,
+				214562A02328EF2900F8D5F8 /* ViewController.m */,
+				214562B22328F05400F8D5F8 /* splash.cxy */,
+				214562A22328EF2900F8D5F8 /* Main.storyboard */,
+				214562A52328EF2A00F8D5F8 /* Assets.xcassets */,
+				214562A72328EF2A00F8D5F8 /* LaunchScreen.storyboard */,
+				214562AA2328EF2A00F8D5F8 /* Info.plist */,
+				214562AB2328EF2A00F8D5F8 /* main.m */,
+			);
+			path = JieMi;
+			sourceTree = "<group>";
+		};
+		214562B42328F0B100F8D5F8 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				214562B52328F0B100F8D5F8 /* RNDecryptor.h */,
+				214562B62328F0B100F8D5F8 /* RNCryptor.m */,
+				214562B72328F0B100F8D5F8 /* RNCryptor+Private.h */,
+				214562B82328F0B100F8D5F8 /* RNCryptor-Prefix.pch */,
+				214562B92328F0B100F8D5F8 /* RNCryptorEngine.h */,
+				214562BA2328F0B100F8D5F8 /* RNCryptor+Swift.h */,
+				214562BB2328F0B100F8D5F8 /* RNEncryptor.h */,
+				214562BC2328F0B100F8D5F8 /* RNCryptor.h */,
+				214562BD2328F0B100F8D5F8 /* RNDecryptor.m */,
+				214562BE2328F0B100F8D5F8 /* RNEncryptor.m */,
+				214562BF2328F0B100F8D5F8 /* RNCryptorEngine.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		214562982328EF2900F8D5F8 /* JieMi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 214562AF2328EF2A00F8D5F8 /* Build configuration list for PBXNativeTarget "JieMi" */;
+			buildPhases = (
+				214562952328EF2900F8D5F8 /* Sources */,
+				214562962328EF2900F8D5F8 /* Frameworks */,
+				214562972328EF2900F8D5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JieMi;
+			productName = JieMi;
+			productReference = 214562992328EF2900F8D5F8 /* JieMi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		214562912328EF2900F8D5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ruixiao;
+				TargetAttributes = {
+					214562982328EF2900F8D5F8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 214562942328EF2900F8D5F8 /* Build configuration list for PBXProject "JieMi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 214562902328EF2900F8D5F8;
+			productRefGroup = 2145629A2328EF2900F8D5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				214562982328EF2900F8D5F8 /* JieMi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		214562972328EF2900F8D5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214562A92328EF2A00F8D5F8 /* LaunchScreen.storyboard in Resources */,
+				214562A62328EF2A00F8D5F8 /* Assets.xcassets in Resources */,
+				214562A42328EF2900F8D5F8 /* Main.storyboard in Resources */,
+				214562B32328F05400F8D5F8 /* splash.cxy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		214562952328EF2900F8D5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214562C32328F0B100F8D5F8 /* RNCryptorEngine.m in Sources */,
+				214562C22328F0B100F8D5F8 /* RNEncryptor.m in Sources */,
+				214562A12328EF2900F8D5F8 /* ViewController.m in Sources */,
+				214562C02328F0B100F8D5F8 /* RNCryptor.m in Sources */,
+				214562AC2328EF2A00F8D5F8 /* main.m in Sources */,
+				2145629E2328EF2900F8D5F8 /* AppDelegate.m in Sources */,
+				214562C12328F0B100F8D5F8 /* RNDecryptor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		214562A22328EF2900F8D5F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214562A32328EF2900F8D5F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		214562A72328EF2A00F8D5F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				214562A82328EF2A00F8D5F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		214562AD2328EF2A00F8D5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		214562AE2328EF2A00F8D5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214562B02328EF2A00F8D5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JieMi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		214562B12328EF2A00F8D5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JieMi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JieMi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		214562942328EF2900F8D5F8 /* Build configuration list for PBXProject "JieMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214562AD2328EF2A00F8D5F8 /* Debug */,
+				214562AE2328EF2A00F8D5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		214562AF2328EF2A00F8D5F8 /* Build configuration list for PBXNativeTarget "JieMi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214562B02328EF2A00F8D5F8 /* Debug */,
+				214562B12328EF2A00F8D5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 214562912328EF2900F8D5F8 /* Project object */;
+}
